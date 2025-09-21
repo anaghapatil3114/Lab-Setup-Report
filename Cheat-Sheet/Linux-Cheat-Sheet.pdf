@@ -1,1 +1,38 @@
+# Linux Cheat Sheet
+
+## 1. Navigation
+pwd        # Show current directory
+ls         # List files
+cd <dir>   # Change directory
+cd ..      # Go up one directory
+
+## 2. File Operations
+touch <file>           # Create empty file
+mkdir <folder>         # Create folder
+cp <source> <dest>     # Copy file/folder
+mv <source> <dest>     # Move or rename
+rm <file>              # Delete file
+rm -r <folder>         # Delete folder
+
+## 3. Viewing Files
+cat <file>   # Show content
+less <file>  # View page by page
+head <file>  # First 10 lines
+tail <file>  # Last 10 lines
+
+## 4. Networking
+ifconfig       # Show IP addresses
+ip a           # Show IP addresses
+ping <IP>      # Test connectivity
+netstat -rn    # Show routing table
+netstat -tuln  # Show active ports
+
+## 5. Processes
+ps           # Show running processes
+top          # Monitor processes
+kill <PID>   # Kill process by PID
+
+## 6. System Update
+sudo apt update
+sudo apt upgrade -y
 
